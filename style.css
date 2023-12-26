@@ -77,7 +77,6 @@ justify-content: center;
   justify-content: space-between;
   align-items: center;
   width: 60vw;
-
 } 
 
 .shop button {
@@ -209,6 +208,10 @@ button {
     font-weight: 500;
   }
 
+  p {
+    font-size: 18px;
+  }
+
   h1 {
     font-size: 66px;
     font-weight: 100;
@@ -222,7 +225,7 @@ button {
     width: 100%;
     text-align: center;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 36px;
     color: #120E0A;
   }
   
@@ -231,7 +234,7 @@ button {
     /* background-color: red; */
     text-align: center;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 10px;
     color: #120E0A;
   }
 
@@ -265,6 +268,9 @@ button {
      
       /* background-color: yellow; */
     }
+    p {
+      font-size: 18px;
+    }
     .navibar {
       width: 60%;
     }
@@ -274,6 +280,9 @@ button {
     }
     h1{
       font-size: 36px;
+    }
+    h2 {
+      font-size: 18px;
     }
     .shortcut {
       font-size: 18px;
@@ -335,12 +344,13 @@ button {
   background-color: #ecece9f6;
    height: 5vh;
    align-items: center;
+   justify-content: space-between;
 }
 header img {
   height: 4vh;
 }
 h1{
-  font-size: 50px;
+  font-size: 36px;
 }
 p {
   display: none;
@@ -349,7 +359,7 @@ p {
   font-size: 12px;
 }
 .user {
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   }
 main {
@@ -396,7 +406,7 @@ button {
     font-size: 10px;
   }
   section {
-    height: 89vh;
+    height: 90vh;
   }
   }
 
